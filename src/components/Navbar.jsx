@@ -70,7 +70,7 @@ const Navbar = () => {
                         color: 'var(--primary-color)',
                     }}
                 >
-                    def sasi_kanduri():
+                    &gt;&gt;&gt; sasi_kanduri
                 </Link>
 
                 {/* Desktop Menu */}
