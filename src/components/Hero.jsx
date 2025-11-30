@@ -66,7 +66,7 @@ const Hero = () => {
                     <Link to="experience" smooth={true} duration={500} offset={-70}>
                         <button className="btn">Check out my work</button>
                     </Link>
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer">
                         <button
                             className="btn"
                             style={{
