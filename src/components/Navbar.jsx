@@ -54,24 +54,11 @@ const Navbar = () => {
                     margin: '0 auto',
                     padding: '0 20px',
                     display: 'flex',
-                    justifyContent: 'space-between',
+                    justifyContent: 'center',
                     alignItems: 'center',
                 }}
             >
-                <Link
-                    to="hero"
-                    smooth={true}
-                    duration={500}
-                    style={{
-                        fontSize: '1.5rem',
-                        fontWeight: 'bold',
-                        cursor: 'pointer',
-                        fontFamily: 'monospace',
-                        color: 'var(--primary-color)',
-                    }}
-                >
-                    &gt;&gt;&gt; sasi_kanduri
-                </Link>
+
 
                 {/* Desktop Menu */}
                 <ul
