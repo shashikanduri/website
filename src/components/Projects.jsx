@@ -5,7 +5,7 @@ import { FaGithub, FaExternalLinkAlt, FaFolder } from 'react-icons/fa';
 const Projects = () => {
     const projects = [
         {
-            title: 'Personal Spotify Agent',
+            title: 'Conversational Spotify Assistant',
             description:
                 'Engineered a conversational AI agent using LangGraph that orchestrates general Spotify app operations through a ReAct workflow. Implemented Spotify OAuth authentication and developed custom tools for the Spotify Web API.',
             tech: ['Python', 'LangGraph', 'Spotify API', 'OAuth'],
@@ -15,10 +15,10 @@ const Projects = () => {
             },
         },
         {
-            title: 'Hash-based Proof of Stake',
+            title: 'F1 Race Data Pipeline',
             description:
-                'Researched and evaluated a novel proof-of-stake consensus algorithm using Python with Multithreading and RSA encryption to simulate a 100-node blockchain network, achieving 15-20% improvement in decentralization metrics.',
-            tech: ['Python', 'Multithreading', 'RSA Encryption', 'Blockchain'],
+                'Designed a medallion-style ETL pipeline in Azure Data Factory to ingest Formula 1 race data from the Ergast API into ADLS across Raw, Ingested, and Presentation zones; transformed and cleaned data with PySpark on Databricks to produce curated tables for reporting and dashboarding.',
+            tech: ['Azure Data Factory', 'PySpark', 'Databricks', 'ADLS'],
             links: {
                 github: '#',
                 external: '#',
@@ -29,6 +29,16 @@ const Projects = () => {
             description:
                 'Built models using vision transformers, fast R-CNN and YOLO models to detect brain tumors using datasets with T1-Weighted MRI scans of the brain.',
             tech: ['Vision Transformers', 'Fast R-CNN', 'YOLO', 'Python'],
+            links: {
+                github: '#',
+                external: '#',
+            },
+        },
+        {
+            title: 'Hash-based Proof of Stake',
+            description:
+                'Researched and evaluated a novel proof-of-stake consensus algorithm using Python with Multithreading and RSA encryption to simulate a 100-node blockchain network, achieving 15-20% improvement in decentralization metrics.',
+            tech: ['Python', 'Multithreading', 'RSA Encryption', 'Blockchain'],
             links: {
                 github: '#',
                 external: '#',

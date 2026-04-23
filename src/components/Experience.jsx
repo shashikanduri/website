@@ -13,11 +13,11 @@ const Experience = () => {
             location: 'Sacramento, CA',
             url: 'https://www.owp.csus.edu/',
             points: [
-                'Designed and developed a Water Quality Testing System with web applications and microservices for the State Water Resources Control Board of California using React, Python, Flask/FastAPI, GraphQL, SQLAlchemy, Jinja and RabbitMQ.',
-                'Designed and implemented a Stormwater Analytics Web Tools System for the California Department of Transportation, enabling state consultants to report real-time storm data.',
-                'Developed reusable Python packages for cross-functional teams, leveraging Pandas, NumPy, and Matplotlib, achieving 90% reusability.',
-                'Developed automation scripts and data pipelines using Python and Airflow for sampling schedule notifications, eliminating manual workflows by 90%.',
-                'Designed and implemented MS SQL Server database schemas, incorporating tables, procedures, triggers, views and indexes.',
+                'Lead developer on a water quality tracking platform covering 4,000 monitoring nodes; responsible for React UI, Python (Flask/FastAPI) microservices exposing REST APIs, async SQLAlchemy, and caching across the request lifecycle.',
+                'Architected AWS infrastructure — ECS Fargate with ALB for backends, S3 + CloudFront for SPA frontends and RDS SQL Server with cost-optimized shared services and Bitbucket Pipelines for automated on-merge deployments.',
+                'Authored Python SDKs that package complete hydrologic and water quality analyses, producing statistical summaries, visualizations, and structured results used across the platform\'s API and analytical workflows.',
+                'Built Python/Airflow DAGs for sampling schedules, result analysis, and contamination alerts reaching 2,000+ water systems, cutting manual notification work for program staff by 90%.',
+                'Designed and implemented MS SQL Server database schemas, incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
             ],
         },
         {
@@ -27,9 +27,9 @@ const Experience = () => {
             location: 'Sacramento, CA',
             url: 'https://www.graphwear.co/',
             points: [
-                'Developed iOS application in Swift to interface with a Bluetooth-enabled wearable device, implementing data packet parsing and observer patterns.',
-                'Built and deployed FastAPI backend on AWS using ECS Fargate, RDS PostgreSQL and Alembic to store and analyze sensor data.',
-                'Implemented CI/CD pipeline using AWS CloudFormation and Bitbucket Pipelines for automated infrastructure provisioning.',
+                'Built and deployed a FastAPI backend on AWS (ECS Fargate, RDS PostgreSQL, Alembic migrations) to ingest and analyze sensor data from a Bluetooth wearable, serving endpoints for the iOS app and internal dashboards.',
+                'Set up infrastructure-as-code and CI/CD pipelines with AWS CloudFormation and Bitbucket Pipelines, automating provisioning, testing, and deployment for the project.',
+                'Contributed core features to the companion iOS app in Swift, including Bluetooth data packet parsing and observer-based state management for real-time lactate readings.',
             ],
         },
         {
@@ -39,8 +39,8 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://www.aaseya.com/',
             points: [
-                'Developed secure RESTful APIs using Spring Boot with JWT authentication, implementing custom exception handling and input validation.',
-                'Architected and developed case management solutions for the Ministry of Justice of Saudi Arabia using advanced PEGA web development concepts.',
+                'Built Flask microservices powering data exchange for a court management system; implemented JWT authentication, Pydantic schema validation, centralized exception handling, and role-based access control via decorators.',
+                'Developed workflow automation for court operations (hearings, case registrations) in a case management system for the Saudi Arabia Ministry of Justice; integrated external judicial data sources via REST services.',
             ],
         },
         {
