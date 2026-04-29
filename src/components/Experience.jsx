@@ -13,11 +13,12 @@ const Experience = () => {
             location: 'Sacramento, CA',
             url: 'https://www.owp.csus.edu/',
             points: [
-                'Lead developer on a water quality tracking platform covering 4,000 monitoring nodes; responsible for React UI, Python (Flask/FastAPI) microservices exposing REST APIs, async SQLAlchemy, and caching across the request lifecycle.',
-                'Architected AWS infrastructure — ECS Fargate with ALB for backends, S3 + CloudFront for SPA frontends and RDS SQL Server with cost-optimized shared services and Bitbucket Pipelines for automated on-merge deployments.',
-                'Authored Python SDKs that package complete hydrologic and water quality analyses, producing statistical summaries, visualizations, and structured results used across the platform\'s API and analytical workflows.',
-                'Built Python/Airflow DAGs for sampling schedules, result analysis, and contamination alerts reaching 2,000+ water systems, cutting manual notification work for program staff by 90%.',
-                'Designed and implemented MS SQL Server database schemas, incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
+                'Lead developer on water quality analytics and training platform covering 4,000 monitoring nodes; responsible for React frontend and Python microservices (Flask/FastAPI) with SQLAlchemy ORM, Alembic migrations, and Redis caching, exposing REST APIs.',
+                'Architected AWS infrastructure with ECS Fargate for backend services, S3 + CloudFront for SPA frontends, SQS queues with Lambda consumers, RDS SQL Server for the database, and Bitbucket Pipelines for CI/CD.',
+                'Authored an internal Python library with an object-oriented design that packages complete hydrologic and water quality analyses into reusable classes, producing statistical summaries, visualizations, and structured results consumed across the platform\'s APIs and analytical workflows.',
+                'Built Airflow DAGs for sampling schedules, data analysis, and contamination result notifications for 2,000+ water systems, cutting manual work for program staff by 90%.',
+                'Implemented checkout system integrating PayPal Expanded Checkout for eLearning course purchases, handling $10,000+ in daily transactions, with CloudWatch and SNS for monitoring and alerts.',
+                'Designed and implemented MS SQL Server database schema incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
             ],
         },
         {
@@ -27,9 +28,9 @@ const Experience = () => {
             location: 'Sacramento, CA',
             url: 'https://www.graphwear.co/',
             points: [
-                'Built and deployed a FastAPI backend on AWS (ECS Fargate, RDS PostgreSQL, Alembic migrations) to ingest and analyze sensor data from a Bluetooth wearable, serving endpoints for the iOS app and internal dashboards.',
-                'Set up infrastructure-as-code and CI/CD pipelines with AWS CloudFormation and Bitbucket Pipelines, automating provisioning, testing, and deployment for the project.',
-                'Contributed core features to the companion iOS app in Swift, including Bluetooth data packet parsing and observer-based state management for real-time lactate readings.',
+                'Built and deployed a FastAPI backend on AWS to ingest and analyze sensor data from a Bluetooth wearable, serving endpoints for the iOS app and internal dashboards.',
+                'Contributed core iOS features in Swift, including Bluetooth packet parsing every 30 seconds and observer-based state management for near real-time lactate readings.',
+                'Set up infrastructure-as-code and CI/CD pipelines with AWS CloudFormation and Bitbucket Pipelines, automating infrastructure provisioning, testing, and deployment for the project.',
             ],
         },
         {
@@ -39,8 +40,11 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://www.aaseya.com/',
             points: [
-                'Built Flask microservices powering data exchange for a court management system; implemented JWT authentication, Pydantic schema validation, centralized exception handling, and role-based access control via decorators.',
-                'Developed workflow automation for court operations (hearings, case registrations) in a case management system for the Saudi Arabia Ministry of Justice; integrated external judicial data sources via REST services.',
+                'Designed and developed complex Pega case types and workflows for various court management operations for the Ministry of Justice, Saudi Arabia.',
+                'Built an end-to-end Hearings management module on PEGA enabling judges to schedule, reschedule, and cancel hearings across multiple case types involving appellants, defendants, and presiding judges; Used various Pega rules/records like case types, classes, flows, sections, data pages, activities, data transforms, and database tables.',
+                'Eliminated double-booking race conditions across concurrent judge sessions on shared time slots by implementing a re-check-before-commit pattern that re-validated slot availability at runtime.',
+                'Implemented travel ban processing workflows on PEGA using parent-child case hierarchies (pyWorkCover and covered cases), with cascading multi-level approvals and an authority matrix that resolved approver eligibility based on case attributes; orchestrated multi-stage processing using subprocesses, flows, and SLAs for time-bound escalations.',
+                'Integrated with external systems via Connect-REST with connection problem flows for graceful failure handling; debugged complex production issues using Clipboard and Tracer to inspect runtime case state and rule execution paths.',
             ],
         },
         {
@@ -50,8 +54,10 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://jktech.com/',
             points: [
-                'Developed government service software modules for the OnePortal system of the State of Andhra Pradesh.',
-                'Integrated multiple payment gateway solutions (CCAvenue and Axis Bank) into the application using JSP rules and Service-REST configurations.',
+                'Contributed to E-Pragati, the Government of Andhra Pradesh\'s flagship digitization initiative aimed at moving citizen services online through a unified portal (OnePortal), within the Education and RERA service verticals.',
+                'Built workflows for examination scheduling and Help Line Counter (offline in-person payment booth) modules using flows, sections, queue processing, and activities; integrated the CCAvenue payment gateway via Service-REST and JSP rules to enable online collection of exam fees and regulatory charges which handled tens of thousands of bookings per day during peak exam seasons across citizen services.',
+                'Delivered various RERA modules covering real-estate project registrations, multi-stage approval workflows, and the quarterly project updates system for registered builders; implemented using case types, flows, SLAs, decision tables, data pages, validate rules, and correspondence rules, with role-based access controlled via access groups, access roles, and Access of Role to Object (ARO) rules to segregate builder, regulator, and admin permissions.',
+                'Designed and implemented MS SQL Server database schema incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
             ],
         },
     ];
