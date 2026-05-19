@@ -40,11 +40,10 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://www.aaseya.com/',
             points: [
-                'Designed and developed complex Pega case types and workflows for various court management operations for the Ministry of Justice, Saudi Arabia.',
-                'Built an end-to-end Hearings management module on PEGA enabling judges to schedule, reschedule, and cancel hearings across multiple case types involving appellants, defendants, and presiding judges; Used various Pega rules/records like case types, classes, flows, sections, data pages, activities, data transforms, and database tables.',
-                'Eliminated double-booking race conditions across concurrent judge sessions on shared time slots by implementing a re-check-before-commit pattern that re-validated slot availability at runtime.',
-                'Implemented travel ban processing workflows on PEGA using parent-child case hierarchies (pyWorkCover and covered cases), with cascading multi-level approvals and an authority matrix that resolved approver eligibility based on case attributes; orchestrated multi-stage processing using subprocesses, flows, and SLAs for time-bound escalations.',
-                'Integrated with external systems via Connect-REST with connection problem flows for graceful failure handling; debugged complex production issues using Clipboard and Tracer to inspect runtime case state and rule execution paths.',
+                'Built backend microservices in Spring Boot powering data exchange for a court management system; implemented JWT authentication, centralized exception handling, and role-based access control.',
+                'Developed an end-to-end Hearings Management module, enabling judges to schedule, reschedule, and cancel hearings across multiple case types with REST APIs and role-based access for appellants, defendants, and judges.',
+                'Contributed to workflows like case registration, travel ban and others on Pega using parent-child case hierarchies (pyWorkCover and covered cases), circumstanced rules, cascading and authority matrix approvals; handled multi-stage processing using subprocesses, flows, and SLAs for time-bound escalations.',
+                'Integrated with external systems via Connect-REST with connection problem flows for graceful failure handling; debugged complex production issues using Clipboard and Tracer to inspect runtime case states and rule resolutions.',
             ],
         },
         {
@@ -54,10 +53,7 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://jktech.com/',
             points: [
-                'Contributed to E-Pragati, the Government of Andhra Pradesh\'s flagship digitization initiative aimed at moving citizen services online through a unified portal (OnePortal), within the Education and RERA service verticals.',
-                'Built workflows for examination scheduling and Help Line Counter (offline in-person payment booth) modules using flows, sections, queue processing, and activities; integrated the CCAvenue payment gateway via Service-REST and JSP rules to enable online collection of exam fees and regulatory charges which handled tens of thousands of bookings per day during peak exam seasons across citizen services.',
-                'Delivered various RERA modules covering real-estate project registrations, multi-stage approval workflows, and the quarterly project updates system for registered builders; implemented using case types, flows, SLAs, decision tables, data pages, validate rules, and correspondence rules, with role-based access controlled via access groups, access roles, and Access of Role to Object (ARO) rules to segregate builder, regulator, and admin permissions.',
-                'Designed and implemented MS SQL Server database schema incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
+                'Developed scalable C#/.NET backend services for the Government of Andhra Pradesh\'s E-Pragati (OnePortal) platform, implementing services for examination scheduling, real-estate registrations, and Helpline Counter operations with REST APIs and integrations for CCAvenue payment gateway support.',
             ],
         },
     ];
