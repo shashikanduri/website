@@ -52,7 +52,7 @@ const Experience = () => {
             location: 'Hyderabad, India',
             url: 'https://jktech.com/',
             points: [
-                'Developed scalable C#/.NET backend services for the Government of Andhra Pradesh\'s E-Pragati (OnePortal) platform, implementing services for examination scheduling, real-estate registrations, and Helpline Counter operations with REST APIs and integrations for CCAvenue payment gateway support.',
+                'Developed backend REST APIs in Spring Boot and created multiple Pega modules for the Government of Andhra Pradesh\'s E-Pragati (OnePortal) platform, covering examination scheduling, real-estate registrations, Helpline Counter operations and integrations for CCAvenue payment gateway.',
             ],
         },
     ];
