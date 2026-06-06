@@ -8,17 +8,16 @@ const Experience = () => {
     const experiences = [
         {
             company: 'Office of Water Programs',
-            role: 'Software Engineer',
+            role: 'Full Stack Engineer',
             duration: 'Jun 2023 – Present',
             location: 'Sacramento, CA',
             url: 'https://www.owp.csus.edu/',
             points: [
-                'Lead developer on water quality analytics and training platform covering 4,000 monitoring nodes; responsible for React frontend and Python microservices (Flask/FastAPI) with SQLAlchemy ORM, Alembic migrations, and Redis caching, exposing REST APIs.',
-                'Architected AWS infrastructure with ECS Fargate for backend services, S3 + CloudFront for SPA frontends, SQS queues with Lambda consumers, RDS SQL Server for the database, and Bitbucket Pipelines for CI/CD.',
-                'Authored an internal Python library with an object-oriented design that packages complete hydrologic and water quality analyses into reusable classes, producing statistical summaries, visualizations, and structured results consumed across the platform\'s APIs and analytical workflows.',
-                'Built Airflow DAGs for sampling schedules, data analysis, and contamination result notifications for 2,000+ water systems, cutting manual work for program staff by 90%.',
-                'Implemented checkout system integrating PayPal Expanded Checkout for eLearning course purchases, handling $10,000+ in daily transactions, with CloudWatch and SNS for monitoring and alerts.',
-                'Designed and implemented MS SQL Server database schema incorporating tables, procedures, triggers, views and indexes to support web applications and data workflows, ensuring data integrity and optimal performance.',
+                'Led the design and development of a state-wide water quality analytics and training platform; built frontend with React/TypeScript and backend APIs and microservices with Python (Flask/FastAPI), SQLAlchemy and Alembic.',
+                'Architected and shipped production AWS infrastructure supporting the platform\'s public API and frontend — ECS Fargate for backend services, RDS SQL Server for the database, S3 + CloudFront for the React SPA, and Bitbucket Pipelines for CI/CD.',
+                'Developed an internal Python SDK wrapping hydrologic data analyses and water science computations into reusable OOP classes (using Pandas, NumPy, SciPy), reducing what previously required a full service\'s worth of logic to three lines of code, consumed natively in Python codebases as packages and exposed via APIs to Java and PHP applications across the organization.',
+                'Built Airflow DAGs for sampling schedules, data analysis, and contamination result notifications across 2,000+ water systems; incorporated data mismatch resolution using LLM calls to automatically reconcile sample collection dates against lab reports, reducing manual correction effort by 90%.',
+                'Implemented a checkout system using PayPal Expanded Checkout for eLearning course purchases, handling $10,000+ in daily transactions, with CloudWatch for monitoring and alerts.',
             ],
         },
         {
@@ -41,14 +40,14 @@ const Experience = () => {
             url: 'https://www.aaseya.com/',
             points: [
                 'Built backend microservices in Spring Boot powering data exchange for a court management system; implemented JWT authentication, centralized exception handling, and role-based access control.',
-                'Developed an end-to-end Hearings Management module, enabling judges to schedule, reschedule, and cancel hearings across multiple case types with REST APIs and role-based access for appellants, defendants, and judges.',
+                'Developed an end-to-end Hearings Management module in Pega, enabling judges to schedule, reschedule, and cancel hearings across multiple case types with REST APIs and role-based access for appellants, defendants, and judges.',
                 'Contributed to workflows like case registration, travel ban and others on Pega using parent-child case hierarchies (pyWorkCover and covered cases), circumstanced rules, cascading and authority matrix approvals; handled multi-stage processing using subprocesses, flows, and SLAs for time-bound escalations.',
                 'Integrated with external systems via Connect-REST with connection problem flows for graceful failure handling; debugged complex production issues using Clipboard and Tracer to inspect runtime case states and rule resolutions.',
             ],
         },
         {
             company: 'JK Tech',
-            role: 'PEGA Developer',
+            role: 'Software Engineer',
             duration: 'Jan 2019 – Aug 2020',
             location: 'Hyderabad, India',
             url: 'https://jktech.com/',
